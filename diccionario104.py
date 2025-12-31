@@ -49,12 +49,12 @@ print("-")
 numero = len(titulares)
 print('Iniciaron el partido', numero, 'jugadores')
 
-#(Ejercicio 4)
+# (Ejercicio 4)
 # Crearemos ahora dos listas
 # La primera está formada por la lista de todos lo índices utilizados
 dorsales = titulares.keys()
-#La segunda está formada por la lista de todos los datos almacenados
+# La segunda está formada por la lista de todos los datos almacenados
 nombres = titulares.values()
-#Mostramos ambas listas por pantalla.
+# Mostramos ambas listas por pantalla.
 print(dorsales)
 print(nombres)

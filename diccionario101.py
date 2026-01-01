@@ -2,7 +2,10 @@
 # Partimos de un diccionario vacío
 titulares = {}
 
-# Añadimos cada uno de los jugadores, cada uno de los datos será a su vez un diccionario
+# Añadimos cada uno de los jugadores.
+# La información de cada uno de los jugadores estará almacenada en un diccionario independiente
+# No es necesaro que los diccionarios de todos los jugadores tengan los mismos campos.
+# Para acceder a los diferentes campos del diccionario de un jugador necesitaré conocer el nombre de las claves.
 
 titulares[1] = {'posicion': 'POR', 'nombre': 'Iker Casillas', 'capitan': 'X'}
 titulares[15] = {'posicion': 'DEF', 'nombre': 'Sergio Ramos'}
